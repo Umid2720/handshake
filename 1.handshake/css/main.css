@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  border: 0;
+  outline: unset;
+  width: 21.25rem;
+  font-size: 1rem;
+  padding: 13px 22px;
+  border-radius: 3px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bold, .title {
+  font-weight: bold;
+}
+
+.text-center, .text, .title {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.text {
+  font-size: 1.375rem;
+}
+
+.btn {
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 26px;
+  border-radius: 3px;
+  font-family: "Roboto";
+  background-color: #190083;
+}
+.btn:hover {
+  filter: brightness(1.5);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+}
+
+/* Header section start */
+.header__top {
+  padding: 19px 0;
+  background-color: #0f1035;
+}
+.header__top .nav {
+  background-color: #0f1035;
+}
+.header__top a {
+  color: #fff;
+  font-size: 0.875rem;
+}
+.header__menu {
+  gap: 0 1.25rem;
+}
+.header__bottom .container {
+  padding: 24px 0;
+}
+.header__bottom-menu {
+  gap: 0 1.875rem;
+}
+.header__footer {
+  padding: 21px 0;
+  background-color: #d3f1f3;
+}
+
+/* Main  section start */
+.main {
+  padding: 41px 0;
+  background: url(../images/students.jpg) no-repeat center center/cover;
+}
+.main .text {
+  margin-top: 1%;
+  font-size: 1, 6875rem;
+}
+.main button {
+  margin-top: 18%;
+  margin-left: 2rem;
+}
+
+/* Full section start */
+.full {
+  padding-top: 10%;
+  padding-bottom: 110px;
+}
+.full .title {
+  margin-bottom: 53px;
+}
+.full__box .container {
+  padding: 0 90px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.full__box .box {
+  width: 33%;
+}
+.full__box .box img {
+  margin-bottom: 38px;
+}
+.full__box .box p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Experience style start */
+.experience {
+  padding: 10% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/expeience.jpg);
+}
+.experience__box {
+  width: 80%;
+  padding: 2%;
+  margin-top: 279px;
+  margin-left: auto;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.experience__image {
+  margin-right: 50px;
+}
+.experience__box-title {
+  line-height: 42px;
+  font-size: 1.3125rem;
+  margin-bottom: 1%;
+}
+.experience span {
+  width: 15px;
+  height: 15px;
+  margin: 0 9px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.experience span.active {
+  background: #fff;
+}
+
+/* Employers section start */
+.employers {
+  padding: 6.25rem 0;
+  background-color: #f6f6f8;
+}
+.employers .title {
+  margin-bottom: 40px;
+}
+.employers__box {
+  gap: 0 30px;
+  overflow: auto;
+  font-size: 14px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.employers__box-item {
+  width: 190px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.brand {
+  margin-bottom: 19px;
+  background-color: #fff;
+  border-bottom: 1px solid #c2ccd4;
+}
+.brand-name {
+  top: 0;
+  right: 20px;
+  font-size: 17px;
+  position: absolute;
+}
+
+/* Career section start */
+.career {
+  padding: 6.9375rem 0;
+  background-color: #f3e02b;
+}
+.career .text {
+  margin: 2.5625rem 0 4.9375rem;
+}
+
+/* Leading section start */
+.leading {
+  padding: 10% 0;
+}
+.leading__box {
+  padding: 80px;
+  margin-top: 100px;
+  background: url(../images/leading.jpg) no-repeat center center/cover;
+}
+.leading__box-item {
+  width: 500px;
+  padding: 70px;
+  background-color: #fff;
+}
+.leading .text {
+  margin-bottom: 3.6875rem;
+}
+
+/* Job section start */
+.job {
+  overflow: hidden;
+  max-height: 595px;
+  padding-top: 58px;
+  background-color: #ebeef3;
+}
+.job__image {
+  margin-left: 40px;
+}
+.job .text {
+  margin-top: 35px;
+  margin-bottom: 147px;
+}
+
+/* Recruited section start */
+.recruited {
+  color: #fff;
+  padding: 100px 0;
+  background-color: #0f1035;
+}
+.recruited .text {
+  margin: 40px 0;
+}
+.recruited input {
+  margin-right: 32px;
+}
+.recruited .btn {
+  background-color: #ff1100;
+}
+
+/* Footer section start */
+.footer {
+  padding: 80px 150px 0;
+  background-color: #f6f6f8;
+}
+.footer__top {
+  margin-bottom: 87px;
+}
+.footer__download img {
+  height: 40px;
+}
+.footer__lists {
+  gap: 0 32px;
+}
+.footer__list-title {
+  margin-bottom: 32px;
+}
+.footer__bottom {
+  padding-top: 24px;
+  border-top: 1px solid #000;
+}
+.footer__socials a {
+  margin-right: 10px;
+}
+.footer__list-item li {
+  margin-bottom: 15px;
+}
+.footer__list-item li a {
+  font-size: 14px;
+}
+.footer .playmarket {
+  margin-top: 33px;
+  margin-left: 8px;
+}
+
+@media (max-width: 1270px) {
+  .footer__download img {
+    height: 35px;
+  }
+  .footer__lists {
+    gap: 0 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .main .text,
+.text {
+    font-size: 18px;
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .full {
+    padding: 5% 0;
+  }
+  .full .title {
+    margin-bottom: 2.5%;
+  }
+  .full .container {
+    padding: 0;
+    margin-top: 2.7%;
+    margin-bottom: 2.7%;
+  }
+  .full .container p {
+    font-size: 1rem;
+  }
+  .experience {
+    padding: 20px 0;
+  }
+  .experience__box {
+    margin-top: 100px;
+  }
+  .experience__box-title {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .employers {
+    padding: 2rem 0;
+  }
+  .career {
+    padding: 2rem 0;
+  }
+  .career .text {
+    margin: 2rem 0;
+  }
+  .leading {
+    padding: 5%;
+  }
+  .leading__box {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .leading__box-item {
+    padding: 10px;
+  }
+  .footer__top {
+    display: block;
+    text-align: center;
+  }
+  .footer__lists {
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 850px) {
+  .leading .text {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .job {
+    padding-top: 20px;
+  }
+  .job .text {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .job__box {
+    display: block;
+  }
+  .job__images {
+    justify-content: center;
+  }
+  .job__images img {
+    height: 40px;
+  }
+  .job__phone img {
+    width: 500px;
+    transform: translateY(30%);
+  }
+}/*# sourceMappingURL=main.css.map */
